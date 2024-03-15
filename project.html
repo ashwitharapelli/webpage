@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Local Non-Profit Organization</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:rgba(249, 252, 252, 0.873);
+        }
+        header {
+            background-color: #333;
+            color: #06010dc7;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #ffffff1e;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #ffffff6b;
+            text-decoration: none;
+            padding: 0 20px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Local Non-Profit Organization</h1>
+    </header>
+    <nav>
+        <a href="#mission">Mission</a>
+        <a href="#programs">Programs</a>
+        <a href="#events">Events</a>
+    </nav>
+    <section id="mission">
+        <h2>Mission</h2>
+        <p>Insert organization's mission statement here.</p>
+    </section>
+    <section id="programs">
+        <h2>Programs</h2>
+        <ul>
+            <li>Program 1</li>
+            <li>Program 2</li>
+            <li>Program 3</li>
+            <!-- Add more programs as needed -->
+        </ul>
+    </section>
+    <section id="events">
+        <h2>Events</h2>
+        <ul>
+            <li>Event 1 - Date & Time</li>
+            <li>Event 2 - Date & Time</li>
+            <li>Event 3 - Date & Time</li>
+            <!-- Add more events as needed -->
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Local Non-Profit Organization. All rights reserved.</p>
+    </footer>
+</body>
+</html>
